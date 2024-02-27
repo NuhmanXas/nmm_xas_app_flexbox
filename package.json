@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "mkdir -p ../NMMXasPackages && mv ../nmm_xas_app_flexbox ../NMMXasPackages/"
+    "postinstall": "if not exist \"..\\NMMXasPackages\" mkdir \"..\\NMMXasPackages\" && move \"..\\nmm_xas_app_flexbox\" \"..\\NMMXasPackages\""
   },
   "author": "NMM.Nuhman",
   "license": "ISC",
