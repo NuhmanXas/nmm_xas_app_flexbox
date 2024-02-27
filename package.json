@@ -1,6 +1,6 @@
 {
   "name": "@nmm-xas-packages/nmm_xas_app_flexbox",
-  "version": "1.0.1",
+  "version": "0.0.1",
   "description": "A flexible box component for layout, using styled-components.",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,6 @@
     "url": "git+https://github.com/NuhmanXas/nmm_xas_app_flexbox.git"
   },
   "dependencies": {
-    "styled-components": "^5.0.0" 
+    "styled-components": "^5.0.0"
   }
 }
