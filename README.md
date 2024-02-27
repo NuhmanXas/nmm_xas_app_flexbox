@@ -1,4 +1,4 @@
-# AppFlexBox Component
+# AppFlexBox React JS Component
 
 AppFlexBox is a versatile, styled React component designed for flexible and responsive layout design. It integrates seamlessly with styled-components and provides a wide range of customization options to fit various layout needs.
 
@@ -21,9 +21,34 @@ AppFlexBox is a versatile, styled React component designed for flexible and resp
 To use AppFlexBox in your project, you need to have `styled-components` installed. If you haven't installed `styled-components` yet, you can add it to your project using npm:
 
 ```bash
-npm install nmm_xas_app_flexbox
+npm install styled-components
+```
 
+Then, you can import and use `AppFlexBox` in your React application:
 
+```javascript
+import AppFlexBox from './path-to-AppFlexBox'; // Adjust the path as needed
+```
 
+## Usage
 
+```jsx
+<AppFlexBox
+  className="your-custom-class"
+  flexType="d-flex"
+  direction="flex-row"
+  justifyContent="justify-content-start"
+  alignItems="align-items-center"
+  alignSelf="align-self-auto"
+  fill="flex-fill"
+  autoMargins="ms-auto"
+  wrap="flex-wrap"
+  order="order-1"
+  alignContent="align-content-start"
+  style={{ yourCustomStyleObject }}
+>
+  {/* Your content here */}
+</AppFlexBox>
+```
 
+Customize the component using the available props to fit the layout needs of your project. The `className` and `style` props allow for further customization with external CSS or inline styles.
