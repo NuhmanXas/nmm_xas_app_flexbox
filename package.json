@@ -2,6 +2,7 @@
   "name": "nmm_xas_app_flexbox",
   "version": "0.0.5",
   "description": "A flexible box component for layout, using styled-components.",
+  "keywords": ["react", "component", "flexbox", "responsive", "layout", "styled-components"],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
